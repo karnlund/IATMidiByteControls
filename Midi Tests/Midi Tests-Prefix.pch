@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Midi Tests' target in the 'Midi Tests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
