@@ -6,7 +6,7 @@
 //  Copyright (c) 2011 Ingenious Arts and Technologies LLC. All rights reserved.
 //
 
-#import "MidiByte_LsbMsb.h"
+#import "IATMidiByte_LsbMsb.h"
 
 @implementation IATMidiByte_LSB
 

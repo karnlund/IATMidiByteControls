@@ -6,7 +6,7 @@
 //  Copyright (c) 2011 Ingenious Arts and Technologies LLC. All rights reserved.
 //
 
-#import "MidiByte_SRT.h"
+#import "IATMidiByte_SRT.h"
 
 @implementation IATMidiByte_SRT_Start
 
