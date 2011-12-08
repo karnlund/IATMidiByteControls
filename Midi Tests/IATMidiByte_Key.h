@@ -1,5 +1,5 @@
 //
-//  MidiByte_LsbMsb.h
+//  MidiByte_Key.h
 //  Midi Tests
 //
 //  Created by Kurt Arnlund on 12/6/11.
@@ -8,16 +8,7 @@
 
 #import "IATMidiByteDescription.h"
 
-@interface IATMidiByte_LSB : IATMidiByteDescriptionObject
-
-+ (NSArray*)descriptions;
-+ (unsigned char)messageLength;
-+ (NSArray*)messageByteClassNames;
-
-@end
-
-
-@interface IATMidiByte_MSB : IATMidiByteDescriptionObject
+@interface IATMidiByte_Key : IATMidiByteDescriptionObject
 
 + (NSArray*)descriptions;
 + (unsigned char)messageLength;

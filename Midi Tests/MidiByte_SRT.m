@@ -8,7 +8,7 @@
 
 #import "MidiByte_SRT.h"
 
-@implementation MidiByte_SRT_Start
+@implementation IATMidiByte_SRT_Start
 
 + (NSString*)title {
     return @"System Real-Time Start";
@@ -33,7 +33,7 @@
 @end
 
 
-@implementation MidiByte_SRT_Stop
+@implementation IATMidiByte_SRT_Stop
 
 + (NSString*)title {
     return @"System Real-Time Stop";
@@ -58,7 +58,7 @@
 @end
 
 
-@implementation MidiByte_SRT_Continue
+@implementation IATMidiByte_SRT_Continue
 
 + (NSString*)title {
     return @"System Real-Time Continue";

@@ -8,19 +8,19 @@
 
 #import "MidiByte_LsbMsb.h"
 
-@implementation MidiByte_LSB
+@implementation IATMidiByte_LSB
 
 + (NSString*)title {
     return @"LSB value";
 }
 
 + (NSArray*)descriptions {
-    return [MidiByteDescription valuesForRange:NSMakeRange(0, 128)
+    return [IATMidiByteDescription valuesForRange:NSMakeRange(0, 128)
                                withDescription:[self title]];
 }
 
 + (NSArray*)byteValues {
-    return [MidiByteDescription normalByteValueRange];
+    return [IATMidiByteDescription normalByteValueRange];
 }
 
 + (unsigned char)messageLength {
@@ -35,19 +35,19 @@
 
 
 
-@implementation MidiByte_MSB
+@implementation IATMidiByte_MSB
 
 + (NSString*)title {
     return @"MSB value";
 }
 
 + (NSArray*)descriptions {
-    return [MidiByteDescription valuesForRange:NSMakeRange(0, 128)
+    return [IATMidiByteDescription valuesForRange:NSMakeRange(0, 128)
                                withDescription:[self title]];
 }
 
 + (NSArray*)byteValues {
-    return [MidiByteDescription normalByteValueRange];
+    return [IATMidiByteDescription normalByteValueRange];
 }
 
 + (unsigned char)messageLength {

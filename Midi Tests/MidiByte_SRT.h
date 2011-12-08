@@ -6,18 +6,9 @@
 //  Copyright (c) 2011 Ingenious Arts and Technologies LLC. All rights reserved.
 //
 
-#import "MidiByteDescription.h"
+#import "IATMidiByteDescription.h"
 
-@interface MidiByte_SRT_Start : MidiByteDescriptionObject
-
-+ (NSArray*)descriptions;
-+ (unsigned char)messageLength;
-+ (NSArray*)messageByteClassNames;
-
-@end
-
-
-@interface MidiByte_SRT_Stop : MidiByteDescriptionObject
+@interface IATMidiByte_SRT_Start : IATMidiByteDescriptionObject
 
 + (NSArray*)descriptions;
 + (unsigned char)messageLength;
@@ -26,7 +17,16 @@
 @end
 
 
-@interface MidiByte_SRT_Continue : MidiByteDescriptionObject
+@interface IATMidiByte_SRT_Stop : IATMidiByteDescriptionObject
+
++ (NSArray*)descriptions;
++ (unsigned char)messageLength;
++ (NSArray*)messageByteClassNames;
+
+@end
+
+
+@interface IATMidiByte_SRT_Continue : IATMidiByteDescriptionObject
 
 + (NSArray*)descriptions;
 + (unsigned char)messageLength;
