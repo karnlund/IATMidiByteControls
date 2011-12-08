@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		452E3651148F21A200BB975E /* MidiByte_ControlType.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E3650148F21A200BB975E /* MidiByte_ControlType.m */; };
-		452E3655148F287B00BB975E /* MidiByte_ProgramNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E3654148F287A00BB975E /* MidiByte_ProgramNumber.m */; };
+		452E3651148F21A200BB975E /* IATMidiByte_ControlType.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E3650148F21A200BB975E /* IATMidiByte_ControlType.m */; };
+		452E3655148F287B00BB975E /* IATMidiByte_ProgramNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E3654148F287A00BB975E /* IATMidiByte_ProgramNumber.m */; };
 		452E3658148F2A3800BB975E /* MidiByte_LsbMsb.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E3657148F2A3700BB975E /* MidiByte_LsbMsb.m */; };
 		45405137148EED1200173FF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45405136148EED1200173FF2 /* Cocoa.framework */; };
 		45405141148EED1200173FF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4540513F148EED1200173FF2 /* InfoPlist.strings */; };
@@ -20,21 +20,21 @@
 		45405156148EED1300173FF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45405136148EED1200173FF2 /* Cocoa.framework */; };
 		4540515E148EED1300173FF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4540515C148EED1300173FF2 /* InfoPlist.strings */; };
 		45405161148EED1300173FF2 /* Midi_TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405160148EED1300173FF2 /* Midi_TestsTests.m */; };
-		4540516C148EEF7700173FF2 /* MidiPopUpButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540516B148EEF7700173FF2 /* MidiPopUpButtons.m */; };
-		4540516F148EEF9900173FF2 /* MidiByteDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540516E148EEF9900173FF2 /* MidiByteDescription.m */; };
-		45405172148EF5EF00173FF2 /* MidiByte_NoteOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405171148EF5EF00173FF2 /* MidiByte_NoteOff.m */; };
-		45405175148EF66500173FF2 /* MidiByte_NoteOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405174148EF66500173FF2 /* MidiByte_NoteOn.m */; };
-		45405179148EF73500173FF2 /* MidiByte_PolyphonicKeyPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405178148EF73500173FF2 /* MidiByte_PolyphonicKeyPressure.m */; };
-		4540517C148EF9BF00173FF2 /* MidiByte_ControlChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540517B148EF9BF00173FF2 /* MidiByte_ControlChange.m */; };
-		4540517F148EFA7C00173FF2 /* MidiByte_ProgramChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540517E148EFA7C00173FF2 /* MidiByte_ProgramChange.m */; };
-		45405182148EFB1A00173FF2 /* MidiByte_ChannelPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405181148EFB1A00173FF2 /* MidiByte_ChannelPressure.m */; };
-		45405185148EFBAC00173FF2 /* MidiByte_PitchWheelChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405184148EFBAC00173FF2 /* MidiByte_PitchWheelChange.m */; };
-		45405188148EFC2600173FF2 /* MidiByte_Key.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405187148EFC2500173FF2 /* MidiByte_Key.m */; };
-		454169B9148F1D580017F2CF /* MidiByte_Velocity.m in Sources */ = {isa = PBXBuildFile; fileRef = 454169B8148F1D580017F2CF /* MidiByte_Velocity.m */; };
-		454169BD148F20000017F2CF /* MidiByte_Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 454169BC148F20000017F2CF /* MidiByte_Value.m */; };
+		4540516C148EEF7700173FF2 /* IATMidiPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540516B148EEF7700173FF2 /* IATMidiPopUpButton.m */; };
+		4540516F148EEF9900173FF2 /* IATMidiByteDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540516E148EEF9900173FF2 /* IATMidiByteDescription.m */; };
+		45405172148EF5EF00173FF2 /* IATMidiByte_NoteOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405171148EF5EF00173FF2 /* IATMidiByte_NoteOff.m */; };
+		45405175148EF66500173FF2 /* IATMidiByte_NoteOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405174148EF66500173FF2 /* IATMidiByte_NoteOn.m */; };
+		45405179148EF73500173FF2 /* IATMidiByte_PolyphonicKeyPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405178148EF73500173FF2 /* IATMidiByte_PolyphonicKeyPressure.m */; };
+		4540517C148EF9BF00173FF2 /* IATMidiByte_ControlChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540517B148EF9BF00173FF2 /* IATMidiByte_ControlChange.m */; };
+		4540517F148EFA7C00173FF2 /* IATMidiByte_ProgramChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4540517E148EFA7C00173FF2 /* IATMidiByte_ProgramChange.m */; };
+		45405182148EFB1A00173FF2 /* IATMidiByte_ChannelPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405181148EFB1A00173FF2 /* IATMidiByte_ChannelPressure.m */; };
+		45405185148EFBAC00173FF2 /* IATMidiByte_PitchWheelChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405184148EFBAC00173FF2 /* IATMidiByte_PitchWheelChange.m */; };
+		45405188148EFC2600173FF2 /* IATMidiByte_Key.m in Sources */ = {isa = PBXBuildFile; fileRef = 45405187148EFC2500173FF2 /* IATMidiByte_Key.m */; };
+		454169B9148F1D580017F2CF /* IATMidiByte_Velocity.m in Sources */ = {isa = PBXBuildFile; fileRef = 454169B8148F1D580017F2CF /* IATMidiByte_Velocity.m */; };
+		454169BD148F20000017F2CF /* IATMidiByte_Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 454169BC148F20000017F2CF /* IATMidiByte_Value.m */; };
 		457F6EEE148F366C00CF74B6 /* MidiByte_SRT.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F6EED148F366C00CF74B6 /* MidiByte_SRT.m */; };
-		457FAA9414907E5B002AA21E /* MidiBytePopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FAA9314907E5B002AA21E /* MidiBytePopUpButtonCell.m */; };
-		457FAA98149091FC002AA21E /* MidiMessageConstructorMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FAA97149091FC002AA21E /* MidiMessageConstructorMatrix.m */; };
+		457FAA9414907E5B002AA21E /* IATMidiBytePopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FAA9314907E5B002AA21E /* IATMidiBytePopUpButtonCell.m */; };
+		457FAA98149091FC002AA21E /* IATMidiMessageConstructorMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FAA97149091FC002AA21E /* IATMidiMessageConstructorMatrix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		452E364F148F21A200BB975E /* MidiByte_ControlType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_ControlType.h; sourceTree = "<group>"; };
-		452E3650148F21A200BB975E /* MidiByte_ControlType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_ControlType.m; sourceTree = "<group>"; };
-		452E3653148F287A00BB975E /* MidiByte_ProgramNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_ProgramNumber.h; sourceTree = "<group>"; };
-		452E3654148F287A00BB975E /* MidiByte_ProgramNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_ProgramNumber.m; sourceTree = "<group>"; };
+		452E364F148F21A200BB975E /* IATMidiByte_ControlType.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_ControlType.h; sourceTree = "<group>"; };
+		452E3650148F21A200BB975E /* IATMidiByte_ControlType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_ControlType.m; sourceTree = "<group>"; };
+		452E3653148F287A00BB975E /* IATMidiByte_ProgramNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_ProgramNumber.h; sourceTree = "<group>"; };
+		452E3654148F287A00BB975E /* IATMidiByte_ProgramNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_ProgramNumber.m; sourceTree = "<group>"; };
 		452E3656148F2A3700BB975E /* MidiByte_LsbMsb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_LsbMsb.h; sourceTree = "<group>"; };
 		452E3657148F2A3700BB975E /* MidiByte_LsbMsb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_LsbMsb.m; sourceTree = "<group>"; };
 		45405132148EED1200173FF2 /* Midi Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midi Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,37 +73,37 @@
 		4540515D148EED1300173FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4540515F148EED1300173FF2 /* Midi_TestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Midi_TestsTests.h; sourceTree = "<group>"; };
 		45405160148EED1300173FF2 /* Midi_TestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Midi_TestsTests.m; sourceTree = "<group>"; };
-		4540516A148EEF7700173FF2 /* MidiPopUpButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiPopUpButtons.h; sourceTree = "<group>"; };
-		4540516B148EEF7700173FF2 /* MidiPopUpButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiPopUpButtons.m; sourceTree = "<group>"; };
-		4540516D148EEF9900173FF2 /* MidiByteDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByteDescription.h; sourceTree = "<group>"; };
-		4540516E148EEF9900173FF2 /* MidiByteDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByteDescription.m; sourceTree = "<group>"; };
-		45405170148EF5EF00173FF2 /* MidiByte_NoteOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_NoteOff.h; sourceTree = "<group>"; };
-		45405171148EF5EF00173FF2 /* MidiByte_NoteOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_NoteOff.m; sourceTree = "<group>"; };
-		45405173148EF66500173FF2 /* MidiByte_NoteOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_NoteOn.h; sourceTree = "<group>"; };
-		45405174148EF66500173FF2 /* MidiByte_NoteOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_NoteOn.m; sourceTree = "<group>"; };
-		45405177148EF73500173FF2 /* MidiByte_PolyphonicKeyPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_PolyphonicKeyPressure.h; sourceTree = "<group>"; };
-		45405178148EF73500173FF2 /* MidiByte_PolyphonicKeyPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_PolyphonicKeyPressure.m; sourceTree = "<group>"; };
-		4540517A148EF9BF00173FF2 /* MidiByte_ControlChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_ControlChange.h; sourceTree = "<group>"; };
-		4540517B148EF9BF00173FF2 /* MidiByte_ControlChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_ControlChange.m; sourceTree = "<group>"; };
-		4540517D148EFA7C00173FF2 /* MidiByte_ProgramChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_ProgramChange.h; sourceTree = "<group>"; };
-		4540517E148EFA7C00173FF2 /* MidiByte_ProgramChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_ProgramChange.m; sourceTree = "<group>"; };
-		45405180148EFB1A00173FF2 /* MidiByte_ChannelPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_ChannelPressure.h; sourceTree = "<group>"; };
-		45405181148EFB1A00173FF2 /* MidiByte_ChannelPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_ChannelPressure.m; sourceTree = "<group>"; };
-		45405183148EFBAC00173FF2 /* MidiByte_PitchWheelChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_PitchWheelChange.h; sourceTree = "<group>"; };
-		45405184148EFBAC00173FF2 /* MidiByte_PitchWheelChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_PitchWheelChange.m; sourceTree = "<group>"; };
-		45405186148EFC2500173FF2 /* MidiByte_Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_Key.h; sourceTree = "<group>"; };
-		45405187148EFC2500173FF2 /* MidiByte_Key.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_Key.m; sourceTree = "<group>"; };
-		454169B7148F1D580017F2CF /* MidiByte_Velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_Velocity.h; sourceTree = "<group>"; };
-		454169B8148F1D580017F2CF /* MidiByte_Velocity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_Velocity.m; sourceTree = "<group>"; };
-		454169BB148F20000017F2CF /* MidiByte_Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_Value.h; sourceTree = "<group>"; };
-		454169BC148F20000017F2CF /* MidiByte_Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_Value.m; sourceTree = "<group>"; };
+		4540516A148EEF7700173FF2 /* IATMidiPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiPopUpButton.h; sourceTree = "<group>"; };
+		4540516B148EEF7700173FF2 /* IATMidiPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiPopUpButton.m; sourceTree = "<group>"; };
+		4540516D148EEF9900173FF2 /* IATMidiByteDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByteDescription.h; sourceTree = "<group>"; };
+		4540516E148EEF9900173FF2 /* IATMidiByteDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByteDescription.m; sourceTree = "<group>"; };
+		45405170148EF5EF00173FF2 /* IATMidiByte_NoteOff.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_NoteOff.h; sourceTree = "<group>"; };
+		45405171148EF5EF00173FF2 /* IATMidiByte_NoteOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_NoteOff.m; sourceTree = "<group>"; };
+		45405173148EF66500173FF2 /* IATMidiByte_NoteOn.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_NoteOn.h; sourceTree = "<group>"; };
+		45405174148EF66500173FF2 /* IATMidiByte_NoteOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_NoteOn.m; sourceTree = "<group>"; };
+		45405177148EF73500173FF2 /* IATMidiByte_PolyphonicKeyPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_PolyphonicKeyPressure.h; sourceTree = "<group>"; };
+		45405178148EF73500173FF2 /* IATMidiByte_PolyphonicKeyPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_PolyphonicKeyPressure.m; sourceTree = "<group>"; };
+		4540517A148EF9BF00173FF2 /* IATMidiByte_ControlChange.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_ControlChange.h; sourceTree = "<group>"; };
+		4540517B148EF9BF00173FF2 /* IATMidiByte_ControlChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_ControlChange.m; sourceTree = "<group>"; };
+		4540517D148EFA7C00173FF2 /* IATMidiByte_ProgramChange.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_ProgramChange.h; sourceTree = "<group>"; };
+		4540517E148EFA7C00173FF2 /* IATMidiByte_ProgramChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_ProgramChange.m; sourceTree = "<group>"; };
+		45405180148EFB1A00173FF2 /* IATMidiByte_ChannelPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_ChannelPressure.h; sourceTree = "<group>"; };
+		45405181148EFB1A00173FF2 /* IATMidiByte_ChannelPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_ChannelPressure.m; sourceTree = "<group>"; };
+		45405183148EFBAC00173FF2 /* IATMidiByte_PitchWheelChange.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_PitchWheelChange.h; sourceTree = "<group>"; };
+		45405184148EFBAC00173FF2 /* IATMidiByte_PitchWheelChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_PitchWheelChange.m; sourceTree = "<group>"; };
+		45405186148EFC2500173FF2 /* IATMidiByte_Key.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_Key.h; sourceTree = "<group>"; };
+		45405187148EFC2500173FF2 /* IATMidiByte_Key.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_Key.m; sourceTree = "<group>"; };
+		454169B7148F1D580017F2CF /* IATMidiByte_Velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_Velocity.h; sourceTree = "<group>"; };
+		454169B8148F1D580017F2CF /* IATMidiByte_Velocity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_Velocity.m; sourceTree = "<group>"; };
+		454169BB148F20000017F2CF /* IATMidiByte_Value.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_Value.h; sourceTree = "<group>"; };
+		454169BC148F20000017F2CF /* IATMidiByte_Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_Value.m; sourceTree = "<group>"; };
 		457F6EEC148F366C00CF74B6 /* MidiByte_SRT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiByte_SRT.h; sourceTree = "<group>"; };
 		457F6EED148F366C00CF74B6 /* MidiByte_SRT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiByte_SRT.m; sourceTree = "<group>"; };
 		457F6EF0148F3D8700CF74B6 /* MidiBytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiBytes.h; sourceTree = "<group>"; };
-		457FAA9214907E5B002AA21E /* MidiBytePopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiBytePopUpButtonCell.h; sourceTree = "<group>"; };
-		457FAA9314907E5B002AA21E /* MidiBytePopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiBytePopUpButtonCell.m; sourceTree = "<group>"; };
-		457FAA96149091FC002AA21E /* MidiMessageConstructorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMessageConstructorMatrix.h; sourceTree = "<group>"; };
-		457FAA97149091FC002AA21E /* MidiMessageConstructorMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiMessageConstructorMatrix.m; sourceTree = "<group>"; };
+		457FAA9214907E5B002AA21E /* IATMidiBytePopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiBytePopUpButtonCell.h; sourceTree = "<group>"; };
+		457FAA9314907E5B002AA21E /* IATMidiBytePopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiBytePopUpButtonCell.m; sourceTree = "<group>"; };
+		457FAA96149091FC002AA21E /* IATMidiMessageConstructorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiMessageConstructorMatrix.h; sourceTree = "<group>"; };
+		457FAA97149091FC002AA21E /* IATMidiMessageConstructorMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiMessageConstructorMatrix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,41 +173,41 @@
 				45405149148EED1300173FF2 /* IATAppDelegate.m */,
 				4540514B148EED1300173FF2 /* MainMenu.xib */,
 				4540513D148EED1200173FF2 /* Supporting Files */,
-				457FAA96149091FC002AA21E /* MidiMessageConstructorMatrix.h */,
-				457FAA97149091FC002AA21E /* MidiMessageConstructorMatrix.m */,
-				4540516A148EEF7700173FF2 /* MidiPopUpButtons.h */,
-				4540516B148EEF7700173FF2 /* MidiPopUpButtons.m */,
-				457FAA9214907E5B002AA21E /* MidiBytePopUpButtonCell.h */,
-				457FAA9314907E5B002AA21E /* MidiBytePopUpButtonCell.m */,
+				457FAA96149091FC002AA21E /* IATMidiMessageConstructorMatrix.h */,
+				457FAA97149091FC002AA21E /* IATMidiMessageConstructorMatrix.m */,
+				4540516A148EEF7700173FF2 /* IATMidiPopUpButton.h */,
+				4540516B148EEF7700173FF2 /* IATMidiPopUpButton.m */,
+				457FAA9214907E5B002AA21E /* IATMidiBytePopUpButtonCell.h */,
+				457FAA9314907E5B002AA21E /* IATMidiBytePopUpButtonCell.m */,
 				457F6EF0148F3D8700CF74B6 /* MidiBytes.h */,
-				4540516D148EEF9900173FF2 /* MidiByteDescription.h */,
-				4540516E148EEF9900173FF2 /* MidiByteDescription.m */,
-				45405170148EF5EF00173FF2 /* MidiByte_NoteOff.h */,
-				45405171148EF5EF00173FF2 /* MidiByte_NoteOff.m */,
-				45405173148EF66500173FF2 /* MidiByte_NoteOn.h */,
-				45405174148EF66500173FF2 /* MidiByte_NoteOn.m */,
-				45405177148EF73500173FF2 /* MidiByte_PolyphonicKeyPressure.h */,
-				45405178148EF73500173FF2 /* MidiByte_PolyphonicKeyPressure.m */,
-				4540517A148EF9BF00173FF2 /* MidiByte_ControlChange.h */,
-				4540517B148EF9BF00173FF2 /* MidiByte_ControlChange.m */,
-				4540517D148EFA7C00173FF2 /* MidiByte_ProgramChange.h */,
-				4540517E148EFA7C00173FF2 /* MidiByte_ProgramChange.m */,
-				45405180148EFB1A00173FF2 /* MidiByte_ChannelPressure.h */,
-				45405181148EFB1A00173FF2 /* MidiByte_ChannelPressure.m */,
-				45405183148EFBAC00173FF2 /* MidiByte_PitchWheelChange.h */,
-				45405184148EFBAC00173FF2 /* MidiByte_PitchWheelChange.m */,
+				4540516D148EEF9900173FF2 /* IATMidiByteDescription.h */,
+				4540516E148EEF9900173FF2 /* IATMidiByteDescription.m */,
+				45405170148EF5EF00173FF2 /* IATMidiByte_NoteOff.h */,
+				45405171148EF5EF00173FF2 /* IATMidiByte_NoteOff.m */,
+				45405173148EF66500173FF2 /* IATMidiByte_NoteOn.h */,
+				45405174148EF66500173FF2 /* IATMidiByte_NoteOn.m */,
+				45405177148EF73500173FF2 /* IATMidiByte_PolyphonicKeyPressure.h */,
+				45405178148EF73500173FF2 /* IATMidiByte_PolyphonicKeyPressure.m */,
+				4540517A148EF9BF00173FF2 /* IATMidiByte_ControlChange.h */,
+				4540517B148EF9BF00173FF2 /* IATMidiByte_ControlChange.m */,
+				4540517D148EFA7C00173FF2 /* IATMidiByte_ProgramChange.h */,
+				4540517E148EFA7C00173FF2 /* IATMidiByte_ProgramChange.m */,
+				45405180148EFB1A00173FF2 /* IATMidiByte_ChannelPressure.h */,
+				45405181148EFB1A00173FF2 /* IATMidiByte_ChannelPressure.m */,
+				45405183148EFBAC00173FF2 /* IATMidiByte_PitchWheelChange.h */,
+				45405184148EFBAC00173FF2 /* IATMidiByte_PitchWheelChange.m */,
 				457F6EEC148F366C00CF74B6 /* MidiByte_SRT.h */,
 				457F6EED148F366C00CF74B6 /* MidiByte_SRT.m */,
-				45405186148EFC2500173FF2 /* MidiByte_Key.h */,
-				45405187148EFC2500173FF2 /* MidiByte_Key.m */,
-				454169B7148F1D580017F2CF /* MidiByte_Velocity.h */,
-				454169B8148F1D580017F2CF /* MidiByte_Velocity.m */,
-				454169BB148F20000017F2CF /* MidiByte_Value.h */,
-				454169BC148F20000017F2CF /* MidiByte_Value.m */,
-				452E364F148F21A200BB975E /* MidiByte_ControlType.h */,
-				452E3650148F21A200BB975E /* MidiByte_ControlType.m */,
-				452E3653148F287A00BB975E /* MidiByte_ProgramNumber.h */,
-				452E3654148F287A00BB975E /* MidiByte_ProgramNumber.m */,
+				45405186148EFC2500173FF2 /* IATMidiByte_Key.h */,
+				45405187148EFC2500173FF2 /* IATMidiByte_Key.m */,
+				454169B7148F1D580017F2CF /* IATMidiByte_Velocity.h */,
+				454169B8148F1D580017F2CF /* IATMidiByte_Velocity.m */,
+				454169BB148F20000017F2CF /* IATMidiByte_Value.h */,
+				454169BC148F20000017F2CF /* IATMidiByte_Value.m */,
+				452E364F148F21A200BB975E /* IATMidiByte_ControlType.h */,
+				452E3650148F21A200BB975E /* IATMidiByte_ControlType.m */,
+				452E3653148F287A00BB975E /* IATMidiByte_ProgramNumber.h */,
+				452E3654148F287A00BB975E /* IATMidiByte_ProgramNumber.m */,
 				452E3656148F2A3700BB975E /* MidiByte_LsbMsb.h */,
 				452E3657148F2A3700BB975E /* MidiByte_LsbMsb.m */,
 			);
@@ -355,24 +355,24 @@
 			files = (
 				45405143148EED1200173FF2 /* main.m in Sources */,
 				4540514A148EED1300173FF2 /* IATAppDelegate.m in Sources */,
-				4540516C148EEF7700173FF2 /* MidiPopUpButtons.m in Sources */,
-				4540516F148EEF9900173FF2 /* MidiByteDescription.m in Sources */,
-				45405172148EF5EF00173FF2 /* MidiByte_NoteOff.m in Sources */,
-				45405175148EF66500173FF2 /* MidiByte_NoteOn.m in Sources */,
-				45405179148EF73500173FF2 /* MidiByte_PolyphonicKeyPressure.m in Sources */,
-				4540517C148EF9BF00173FF2 /* MidiByte_ControlChange.m in Sources */,
-				4540517F148EFA7C00173FF2 /* MidiByte_ProgramChange.m in Sources */,
-				45405182148EFB1A00173FF2 /* MidiByte_ChannelPressure.m in Sources */,
-				45405185148EFBAC00173FF2 /* MidiByte_PitchWheelChange.m in Sources */,
-				45405188148EFC2600173FF2 /* MidiByte_Key.m in Sources */,
-				454169B9148F1D580017F2CF /* MidiByte_Velocity.m in Sources */,
-				454169BD148F20000017F2CF /* MidiByte_Value.m in Sources */,
-				452E3651148F21A200BB975E /* MidiByte_ControlType.m in Sources */,
-				452E3655148F287B00BB975E /* MidiByte_ProgramNumber.m in Sources */,
+				4540516C148EEF7700173FF2 /* IATMidiPopUpButton.m in Sources */,
+				4540516F148EEF9900173FF2 /* IATMidiByteDescription.m in Sources */,
+				45405172148EF5EF00173FF2 /* IATMidiByte_NoteOff.m in Sources */,
+				45405175148EF66500173FF2 /* IATMidiByte_NoteOn.m in Sources */,
+				45405179148EF73500173FF2 /* IATMidiByte_PolyphonicKeyPressure.m in Sources */,
+				4540517C148EF9BF00173FF2 /* IATMidiByte_ControlChange.m in Sources */,
+				4540517F148EFA7C00173FF2 /* IATMidiByte_ProgramChange.m in Sources */,
+				45405182148EFB1A00173FF2 /* IATMidiByte_ChannelPressure.m in Sources */,
+				45405185148EFBAC00173FF2 /* IATMidiByte_PitchWheelChange.m in Sources */,
+				45405188148EFC2600173FF2 /* IATMidiByte_Key.m in Sources */,
+				454169B9148F1D580017F2CF /* IATMidiByte_Velocity.m in Sources */,
+				454169BD148F20000017F2CF /* IATMidiByte_Value.m in Sources */,
+				452E3651148F21A200BB975E /* IATMidiByte_ControlType.m in Sources */,
+				452E3655148F287B00BB975E /* IATMidiByte_ProgramNumber.m in Sources */,
 				452E3658148F2A3800BB975E /* MidiByte_LsbMsb.m in Sources */,
 				457F6EEE148F366C00CF74B6 /* MidiByte_SRT.m in Sources */,
-				457FAA9414907E5B002AA21E /* MidiBytePopUpButtonCell.m in Sources */,
-				457FAA98149091FC002AA21E /* MidiMessageConstructorMatrix.m in Sources */,
+				457FAA9414907E5B002AA21E /* IATMidiBytePopUpButtonCell.m in Sources */,
+				457FAA98149091FC002AA21E /* IATMidiMessageConstructorMatrix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
