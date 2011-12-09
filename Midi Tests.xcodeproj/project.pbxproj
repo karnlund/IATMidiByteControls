@@ -53,7 +53,7 @@
 		452E3653148F287A00BB975E /* IATMidiByte_ProgramNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATMidiByte_ProgramNumber.h; sourceTree = "<group>"; };
 		452E3654148F287A00BB975E /* IATMidiByte_ProgramNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_ProgramNumber.m; sourceTree = "<group>"; };
 		452E3656148F2A3700BB975E /* IATMidiByte_LsbMsb.h */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_LsbMsb.h; sourceTree = "<group>"; };
-		452E3657148F2A3700BB975E /* IATMidiByte_LsbMsb.m */ = {isa = PBXFileReference; fileEncoding = 4; path = IATMidiByte_LsbMsb.m; sourceTree = "<group>"; };
+		452E3657148F2A3700BB975E /* IATMidiByte_LsbMsb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATMidiByte_LsbMsb.m; sourceTree = "<group>"; };
 		45405132148EED1200173FF2 /* Midi Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midi Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45405136148EED1200173FF2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45405139148EED1200173FF2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };

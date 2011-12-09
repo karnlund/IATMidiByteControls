@@ -22,7 +22,7 @@
 #import "IATMidiByte_Value.h"
 #import "IATMidiByte_ControlType.h"
 #import "IATMidiByte_ProgramNumber.h"
-#import "MidiByte_LsbMsb.h"
-#import "MidiByte_SRT.h"
+#import "IATMidiByte_LsbMsb.h"
+#import "IATMidiByte_SRT.h"
 
 #endif

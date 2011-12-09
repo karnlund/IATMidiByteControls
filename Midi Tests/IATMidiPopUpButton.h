@@ -10,7 +10,7 @@
 
 #pragma mark - Dynamic midi byte popup that can switch represented byte descriptions
 @interface IATMidiBytePopUpButton : NSPopUpButton 
-- (void)setupWithClassName:(NSString*)className
+- (void)setupWithClassName:(NSString*)className;
 @end
 
 #pragma mark - Base Class to all specific byte popups

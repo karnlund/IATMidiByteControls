@@ -123,16 +123,16 @@
 
 + (NSArray*)allMidiCommandByteClasses {
     NSArray * results = [NSArray arrayWithObjects:
-                         MidiByte_NoteOff.class, 
-                         MidiByte_NoteOn.class, 
-                         MidiByte_PolyphonicKeyPressure.class,
-                         MidiByte_ControlChange.class,
-                         MidiByte_ProgramChange.class,
-                         MidiByte_ChannelPressure.class,
-                         MidiByte_PitchWheelChange.class,
-                         MidiByte_SRT_Start.class,
-                         MidiByte_SRT_Continue.class,
-                         MidiByte_SRT_Stop.class,
+                         IATMidiByte_NoteOff.class, 
+                         IATMidiByte_NoteOn.class, 
+                         IATMidiByte_PolyphonicKeyPressure.class,
+                         IATMidiByte_ControlChange.class,
+                         IATMidiByte_ProgramChange.class,
+                         IATMidiByte_ChannelPressure.class,
+                         IATMidiByte_PitchWheelChange.class,
+                         IATMidiByte_SRT_Start.class,
+                         IATMidiByte_SRT_Continue.class,
+                         IATMidiByte_SRT_Stop.class,
                          nil];
     return results;    
 }
